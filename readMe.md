@@ -1,9 +1,18 @@
+From https://www.adventofjs.com/
+
 # My Notes
+
+**live site:** https://advent-of-js-podcast-tracks.netlify.app/
 
 ## How I did it
 
 - There is an array that contains all of the items in the playlist
 - There is a second array that contains the toggle status of each item
+
+# Todo
+
+- mobile view
+- the dropshadow on the album art should be overlaping the track list
 
 # Brief
 
