@@ -1,29 +1,54 @@
-Project From https://www.adventofjs.com/
+# My Notes
 
-# How I made it
+## How I did it
 
-Because I'm learning React, that's what I used to build it, although I'm sure it's not necessary.
+- There is an array that contains all of the items in the playlist
+- There is a second array that contains the toggle status of each item
 
-I created an array of the keyboard keys. This was then used to create the keys with a .map(). Each key has an id the same as the text of the key. Because many of the key button texts don't work as class names, I created a function to replace those that weren't legal. **I'm sure that is not the best way to do this challenge, but I tried it anyway.** I liked the idea of using a simple array to build the keyboard, but it probably would have been better to have the class names included in the array. 
+# Brief
 
-The CSS of the keyboard is a single flexbox. The keyboard container is a fixed width. I created special key sizes for the non-square keys and using their ids. **This doesn't feel like a great way to do this, so I'm open to feedback**. 
+In this project, we're going to check multiple checkboxes at one time.
 
-I then ran into a problem because the names that the borwser was returning for the keys didn't match the names in the case of CapsLock and Backspace. In fact, I'm not sure my code will work on a a device that uses a different name for these keys.
+You can use as many (or as few) tools, libraries, and frameworks as you'd like. If you're trying to learn something new, this would be a great way to push yourself.
 
-# Enhancements
-* I added a counter to keep track of correct/incorrect as well as the Esc key to reset it.
-* I used a snackbar to allert when a wrong key is pressed
+**Users should be able to:**
 
-# Problems
+- See the list of podcast episodes
+- Checking off an episode will mark the episode as watched and will strike-through the title
 
-* In FireFox, the ' key is a shortcut for `quick find`. So when the user hits that key, the browser grabs focus.
-* When a key is held down, it regesters multiple key presses. Because of the snackbar allert, this can cause numerous allerts. 
+[[FREE]] Need some support on this challenge? Upgrade to the [**Solution tier.**](http://adventofcss.com) You'll get a video explanation, from Amy.
 
-# Future enhancements
-* I'd like to add some customizations so users could pick the colour for the active key, etc
+[[SOLUTION]] Need some support on this challenge? Join the [Learn Build Teach](http://learnbuildteach.com) Discord community. We have a separate channel set up specifically for the Advent of CSS.
 
+**Need some support on this challenge?** Join the [Learn Build Teach](http://learnbuildteach.com) Discord community. We have a separate channel set up specifically for the Advent of JavaScript.
 
+# Getting Started
 
-# Live Version
+1. To get started, download the zip file. This includes all the project assets you need to get started: Figma file, images, and a Style Guide
+2. Take a look around. Look at the project's Figma file. This is a great way to see how the pieces and parts should look within the browser.
+3. Open the project's `README.md` file (that's this!). It has additional information on how the project is structured.
+4. Happy coding!
+5. Once you're finished, share your work using **#adventofcss**
 
-https://gifted-wiles-aaa459.netlify.app/
+# Content
+
+1. Trailer
+2. James Q Quick Origin Story
+3. Amy Dutton Origin Story
+4. Starting a New Development Project
+5. How do you Start a New Design Project?
+6. Freelancing (Part 1)
+
+# Taking your Project to the Next Level
+
+- Use a framework or library like [Tailwind CSS](https://tailwindcss.com/), [Styled Components](https://styled-components.com/), or [CSS Modules](https://github.com/css-modules/css-modules). Or, if you're feeling particularly adventurous, try writing everything in Vanilla CSS.
+- Add an animation on load, have the podcast list slide out from under the podcast artwork
+
+# FAQs
+
+- Can I use libraries / frameworks on these projects?
+  - Of course! We're providing the vanilla HTML and CSS, but you can use whatever tools and frameworks you'd like.
+- Oh no! I'm stuck!
+  - Check out the [Learn Build Teach Discord.](http://learnbuildteach.com) We have a specific channel set up, just for the Advent of JavaScript.
+- Can I use this project in my portfolio?
+  - Sure! But, be honest about the work that _you_ did
